@@ -1,17 +1,40 @@
-p{
-  width: 60%;
-  margin: 0 auto 2% auto;
-  font-size: 18px;
-  color: black;
-  padding: 20px 30px;
-  text-align: center;
-  letter-spacing: auto;
-  text-align: center;
-  font-family: "montserrat";
-  font-weight:normal;
-
-
+*{
+  margin: 0px;
+  padding: 0px;
 }
+
+body{
+  display: grid;
+  grid-template-areas:
+  "header"
+  "nav"
+  "main"
+  "footer" ;
+  align-items: center;
+  text-align: center;
+  }
+
+header{
+  grid-area: header;
+  background-color: green;
+}
+
+nav{
+  grid-area: nav;
+  background-color: yellow;
+}
+
+main{
+  grid-area: main;
+  background-color: burlywood;
+}
+
+footer{
+  grid-area: footer;
+  
+}
+
+
 
 tbody tr td img{
   width: 200px;
