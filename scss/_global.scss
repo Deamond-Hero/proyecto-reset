@@ -12,26 +12,35 @@ body{
   "footer" ;
   align-items: center;
   text-align: center;
+  
   }
 
 header{
   grid-area: header;
-  background-color: green;
+  height: 100%;
+    .signoIdent{
+        img{      
+          height: 90%;
+          padding: 50px 30px 0px 30px;
+          margin-top: 100px;
+        }
+    }
+}
+
+main{
+  width: 100%;
 }
 
 nav{
   grid-area: nav;
-  background-color: yellow;
 }
 
 main{
   grid-area: main;
-  background-color: burlywood;
 }
 
 footer{
   grid-area: footer;
-  
 }
 
 

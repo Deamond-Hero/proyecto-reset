@@ -6,14 +6,12 @@
     z-index: 10;
     top: 50px;
     right: 0px;
-    background-color: $color-principal !important ;
+    background-color: $color-secundario !important ;
+    padding: 1px;
     ul{
         li{
             display: block;
             float: right;
-            z-index: 10;
-            margin-top:0px;
-            top: 0px;
             a{
                 background-color: none;
                 text-decoration: none;
@@ -22,7 +20,8 @@
                 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; ; 
                 font-size: 30px;
                 font-weight: bold;
-                padding: 15px 30px;              
+                padding: 5px 30px;   
+                            
             }
         }
     }

@@ -1,15 +1,16 @@
 /*carrusel-bootstrap*/
-.carrusel-1{
+main{
     display: block;
-    padding: 5px;
     margin: auto;
     width: 100%;
     justify-self: right;
+
 
 }
 
 .containerCenterHome{
     display: grid;
+    z-index: -1;
     width: 100%;
     padding: 5px;
     grid-template-areas:
@@ -22,7 +23,6 @@
                     padding: 5px;
                     border: 5px solid purple;
     }
-    
 }
 
 
