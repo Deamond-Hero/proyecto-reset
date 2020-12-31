@@ -1,26 +1,25 @@
 
 @import "../variables";
 
-.navbar {
+.navbar{
     position: fixed;
     z-index: 10;
-    top: 50px;
+    top: 25px;
     right: 0px;
     background-color: $color-secundario !important ;
-    padding: 1px;
-    ul{
-        li{
-            display: block;
-            float: right;
-            a{
-                background-color: none;
-                text-decoration: none;
-                list-style-type: none;
-                color: $white ; 
-                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; ; 
-                font-size: 30px;
-                font-weight: bold;
-                padding: 5px 30px;   
+        ul{
+            li{
+                display: block;
+                float: right;
+                a{
+                    background-color: none;
+                    text-decoration: none;
+                    list-style-type: none;
+                    color: $white !important ; 
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; ; 
+                    font-size: 30px;
+                    font-weight: bold;
+                    padding: 5px 30px;   
                             
             }
         }

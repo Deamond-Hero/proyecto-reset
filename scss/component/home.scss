@@ -1,18 +1,14 @@
 /*carrusel-bootstrap*/
-main{
-    display: block;
-    margin: auto;
-    width: 100%;
-    justify-self: right;
-
-
+.carrusel-1{
+    margin-top: -20px;
+    z-index: -10;
 }
 
 .containerCenterHome{
     display: grid;
     z-index: -1;
     width: 100%;
-    padding: 5px;
+    padding: 0px;
     grid-template-areas:
         "item1 item2 item3";
     grid-template-columns: 1fr 1fr 1fr;
@@ -22,8 +18,10 @@ main{
                     width:400px;
                     padding: 5px;
                     border: 5px solid purple;
+                    margin: 30% 0%;
     }
 }
+
 
 
 .item1{

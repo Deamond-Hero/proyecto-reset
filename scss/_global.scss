@@ -3,41 +3,56 @@
   padding: 0px;
 }
 
+header{
+  grid-area: header;
+  height: 130%;
+        img{ 
+          display: block;
+          margin-left: 10px;  
+          margin-top: -25px;   
+          height: 100%;
+          padding: 30px 30px 0px 30px;
+          
+    }
+}
+
+
+
 body{
   display: grid;
   grid-template-areas:
-  "header"
-  "nav"
-  "main"
-  "footer" ;
+  "header header header"
+  "nav nav nav"
+  "main main main"
+  "footer footer footer" ;
+  grid-template-columns:1fr 1fr 1fr ;
+  grid-template-rows: 120px 0px 1fr 30px ;
   align-items: center;
   text-align: center;
   
   }
 
-header{
-  grid-area: header;
-  height: 100%;
-    .signoIdent{
-        img{      
-          height: 90%;
-          padding: 50px 30px 0px 30px;
-          margin-top: 100px;
-        }
-    }
-}
 
 main{
+  grid-area: main;
   width: 100%;
+    h1{
+      font-size: 50px;
+      color: white;
+      text-shadow: 3px 3px grey;
+      position: absolute;
+      padding: 0px;
+      z-index: 100;
+      margin: 0px;
+      margin-top: -120px;
+      margin-left: 50px;
+    }
 }
 
 nav{
   grid-area: nav;
 }
 
-main{
-  grid-area: main;
-}
 
 footer{
   grid-area: footer;
@@ -45,6 +60,4 @@ footer{
 
 
 
-tbody tr td img{
-  width: 200px;
-}
+
