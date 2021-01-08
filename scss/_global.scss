@@ -4,13 +4,18 @@
 }
 
 header{
+  background-color: #482865;
+  width: 100%;
+  height: 100px;
+  position: relative;
+  z-index: 10;
   grid-area: header;
-  height: 130%;
+  top: -10px;
         img{ 
           display: block;
           margin-left: 10px;  
-          margin-top: -25px;   
-          height: 100%;
+          margin-top: -5px;   
+          height: 80%;
           padding: 30px 30px 0px 30px;
           
     }
@@ -44,14 +49,6 @@ nav{
 
 
 
-header{
-
-  background-color: #482865;
-  width: 100%;
-  height: 110px;
-  position: relative;
-}
-
 body{
   background-color:  #ffffff;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -66,35 +63,48 @@ footer{
   width: 100%;
   height: 80px;
   position: fixed;
-  bottom: 0;
-  ul{ 
-      li{ 
-          display: inline-block;
-          text-align: right;
-          float: right;
-          margin-bottom: 50px;
+  bottom: 0px;
+  h4{
+    margin-top: 30px;
+    padding: 0px;
+    ;
+  }
 
-              a{
-                  text-decoration: none;
-                  list-style-type: none;
-                  color: #ffffff ;
-                  font-size: 30px ;
-                  font-weight: bold;
-                  margin: 15px 15px;
+
                    
           }
-      
-  }   
-}
-}
 
-footer ul li a:hover {
-  color: #050cd2 ;
-  text-decoration: none;
-  list-style-type: none;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 30px ;
-  padding: 10px 15px;
+.redes{
+  position: fixed;
+  bottom: -10px;
+  right: 0px;
+  z-index: 10;
+  ul{ 
+    li{
 
-}
+      display: inline-block;
+      text-decoration: none;
+      list-style-type: none;
+      padding: 5px;
+            a{
+              color: white;
+              font-size: 30px ;
+              font-weight: bold;
+              margin: 15px 15px;
+              bottom: 30px;
 
+            }
+          }
+        }
+  ul li a:hover {
+    color: #050cd2 ;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 30px ;
+    font-weight: bold;
+    margin: 15px 15px;
+    bottom: 30px;
+  
+  }
+        
+      }

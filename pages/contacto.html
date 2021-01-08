@@ -51,33 +51,51 @@
             <h1>Contactanos</h1>
             <h3>Resolvemos tus dudas</h3>
             <form>
-                
-                <label for="nombre_apellido">Nombre:</label required><!--nombre y apellido-->
-                <input type="text"name="nombre_apellido"/><br>
-                <label for="email">Email:</label requiered><!--email-->
-                <input type="text"name="email"><br>
-                <div>Recibir novedades sobre productos</div>
-                <input type="checkbox" name="novedades" value="1" required><br>
+                <div class=ident></div>
+                  <label for="nombre_apellido">Nombre:</label required><!--nombre y apellido-->
+                  <input type="text"name="nombre_apellido"/>
+                  <label for="email">Email:</label requiered><!--email-->
+                  <input type="text"name="email">
+                </div>
+                <div>
+                  <label>Masculino:</label>
+                  <input type="radio" name="sexo" value="masculino">
+                  <label>Femenino:</label>
+                  <input type="radio" name="sexo" value="femenino">
+                </div>
+                <div class=newsletter>
+                  <label>Recibir novedades sobre productos</label> 
+                  <input type="checkbox" name="novedades" value="1" required>
+                </div>
+                <div>
                 <label>Tipo de consulta:</label>
                 <select name="Tipo de consulta" required><!--menu desplegable-->
                     <option value="consulta">Consulta</option>  
                     <option value="cotizacion">Cotización</option>
                     <option value="compra">Compra realizada</option>
                     <option value="otro">Otro motivo</option>
-                </select><br>
-                <textarea required  ></textarea><br>
-                <button type="reset">Limpiar campos</button>
-                <button type="submit">Enviar</button>
-            </form><br><br><br><br><br>
+                </select>
+                </div>
+                <div class="text">
+                <textarea required></textarea>
+                </div>
+                <div class="reset">
+                  <button type="reset">Limpiar campos</button>
+                  <button type="submit">Enviar</button>
+                </div>
+                
+            </form>
         </main>
-        <footer class="pie"><!--footer-->
-            <h4>&copy copyright Todos los derechos reservados Reset</h4>
+        <footer>
+          <h4>&copy copyright Todos los derechos reservados Reset</h4>
+          <section class="redes">
             <ul>
-                <li><a href="https://www.instagram.com/do_reset/" target="_BLANCK"><i class="icon-instagram" alt="Logo facebook"></i></a></li>
-                <li><a href="https://www.facebook.com/Reset-106274541067553" target="_BLANCK"><i class="icon-facebook-square" alt="Logo instagram"></i></a></li>
-                <li><a href="https://api.whatsapp.com/send?phone=543513780700" target="_BLANCK"><i class="icon-whatsapp" alt="Logo whatsapp"></i></a>
-                </li>
+              <li><a href="https://www.instagram.com/do_reset/" target="_BLANCK"><i class="icon-instagram" alt="Logo facebook"></i></a></li>
+              <li><a href="https://www.facebook.com/Reset-106274541067553" target="_BLANCK"><i class="icon-facebook-square" alt="Logo instagram"></i></a></li>
+              <li><a href="https://api.whatsapp.com/send?phone=543513780700" target="_BLANCK"><i class="icon-whatsapp" alt="Logo whatsapp"></i></a>
+              </li>
             </ul>
-        </footer>
+          </section>
+      </footer>
     </body>
 </html>

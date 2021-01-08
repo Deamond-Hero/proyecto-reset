@@ -4,9 +4,10 @@
 .navbar{
     position: fixed;
     z-index: 10;
-    top: 25px;
+    top: 15px;
     right: 0px;
-    background-color: $color-secundario !important ;
+    background-color: rgba(50, 7, 131, 0.4) !important ;
+    
         ul{
             li{
                 display: block;
@@ -15,11 +16,11 @@
                     background-color: none;
                     text-decoration: none;
                     list-style-type: none;
-                    color: $white !important ; 
-                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; ; 
+                    color: white !important ; 
                     font-size: 30px;
                     font-weight: bold;
                     padding: 5px 30px;
+
      
             }
         }
