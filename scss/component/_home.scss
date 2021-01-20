@@ -1,46 +1,24 @@
-#favoritos{
-    h2{
-        font-size: 50px;
+.carrusel-1{
+    margin-top: -20px;
+    z-index: -10;
+    h1{
+        font-size: 90px;
+        color: white;
+        text-shadow: 6px 6px grey;
+        position: absolute;
         padding: 0px;
+        z-index: 100;
+        margin: 0px;
+        margin-top: -200px;
+        margin-left: 50px;
     }
-    .containerCenterHome{
-        display: grid;
-        z-index: -1;
-        width: 100%;
-        grid-template-areas:
-            "item1 item2 item3";
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
-        margin: 10px auto 60px ;
-                    img{
-                        width:400px;
-                        padding: 5px;
-                        border: 1px solid purple;
-                        margin: 10% 0%;
-                    }
-                }
+
 }
 
 
-    .carrusel-1{
-        margin-top: -20px;
-        z-index: -10;
-        h1{
-            font-size: 90px;
-            color: white;
-            text-shadow: 3px 3px grey;
-            position: absolute;
-            padding: 0px;
-            z-index: 100;
-            margin: 0px;
-            margin-top: -120px;
-            margin-left: 50px;
-        }
-
-    }
-
-
 #fortalezas{
+    padding-top: 100px;
+    padding-bottom: 100px;
     h2{
         font-size: 50px;
         padding-top: 50px;
@@ -87,15 +65,41 @@
 
 
 
-.item1{
-    grid-area: item1;
-}
 
-.item2{
-    grid-area: item2;
-}
 
-.item3{
-    grid-area: item3;
-}
+#favoritos{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    h2{
+        font-size: 50px;
+        
+    }
+    .containerCenterHome{
+        display: grid;
+        z-index: -1;
+        width: 100%;
+        grid-template-areas:
+            "item1 item2 item3";
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        margin: 10px auto 60px ;
+                    img{
+                        width:400px;
+                        padding: 5px;
+                        border: 1px solid purple;
+                        margin: 10% 0%;
+                    }
+                }
 
+    .item1{
+        grid-area: item1;
+    }
+    
+    .item2{
+        grid-area: item2;
+    }
+    
+    .item3{
+        grid-area: item3;
+    }
+}
