@@ -1,27 +1,41 @@
 .carrusel-1{
-    margin-top: -20px;
+    height: 100%;
     z-index: -10;
-    h1{
-        font-size: 90px;
-        color: white;
-        text-shadow: 6px 6px grey;
-        position: absolute;
-        padding: 0px;
-        z-index: 100;
-        margin: 0px;
-        margin-top: -200px;
-        margin-left: 50px;
-    }
+        #carouselExampleControls{
+            .carousel-inner{
+                .carousel-item{
+                    img{
+                        width: 100%;
+                        object-fit:fill;
+                        }
+        
+                }
+            }
+        }
+        
+        
 
+h1{
+    font-size: 90px;
+    color: white;
+    text-shadow: 6px 6px grey;
+    position: absolute;
+    padding: 0px;
+    z-index: 100;
+    margin: 0px;
+    margin-top: -200px;
+    margin-left: 50px;
 }
-
-
+}
 #fortalezas{
+    height: 100%;
     padding-top: 100px;
     padding-bottom: 100px;
+    background-color: rgba($color: #efdeff, $alpha: 1.0);
     h2{
-        font-size: 50px;
-        padding-top: 50px;
+        font-size: 60px;
+        margin-bottom: 60px;
+        margin-top: 50px;
     }
     #beneficios{
         display: grid;
@@ -30,6 +44,9 @@
             "beneficios1 beneficios2 beneficios3";
         margin: 100px 0px;
         
+
+        }
+
         h3{
             margin-bottom: 60px;
             color: purple;
@@ -44,6 +61,7 @@
             height: 350px;
             border:  purple 8px outset;
             margin: auto;
+            background-color: white;
         }
         .container2{
             grid-area: beneficios2;
@@ -51,6 +69,7 @@
             height: 350px;
             border:  purple 8px outset;
             margin: auto;
+            background-color: white;
             
         }
         .container3{
@@ -59,8 +78,8 @@
             height: 350px;
             border:  purple 8px outset;
             margin: auto;
+            background-color: white;
     }
-}
 }
 
 
@@ -68,9 +87,13 @@
 
 
 #favoritos{
-    padding-top: 100px;
+    height: 100vh;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 5px;
     h2{
-        font-size: 50px;
+        font-size: 60px;
+        margin-bottom: 60px;
         
     }
     .containerCenterHome{
@@ -102,3 +125,4 @@
         grid-area: item3;
     }
 }
+

@@ -1,0 +1,43 @@
+#parrafos{
+    display: grid;
+    grid-template-areas: 
+        "quien quien quien imgQuien imgQuien imgQuien"
+        "imgComo imgComo imgComo como como como"
+        "objetivo objetivo objetivo imgObjetivo imgObjetivo imgObjetivo";
+    align-content: r;
+
+.quien{
+    grid-area: quien;
+    
+}
+
+.imgQuien{
+    grid-area: imgQuien;
+        img{
+            width: 100%;
+
+        }
+}
+
+.como{
+    grid-area: como;
+}
+
+.imgComo{
+    grid-area: imgComo;
+    img{
+        width: 100%;
+    }}
+
+.objetivo{
+    grid-area: objetivo;
+}
+
+.imgObjetivo{
+    grid-area: imgObjetivo;
+    img{
+        width: 100%;
+    }
+}
+
+}
