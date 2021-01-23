@@ -25,11 +25,11 @@ header{
 body{
   display: grid;
   grid-template-areas:
-  "header header header header header header"
-  "nav nav nav nav nav nav"
-  "main main main main main main"
-  "footer footer footer footer footer footer" ;
-  grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr ;
+  "header header header"
+  "nav nav nav"
+  "main main main"
+  "footer footer footer" ;
+  grid-template-columns:1fr 1fr 1fr ;
   grid-template-rows: 120px 0px 1fr 30px ;
   align-items: center;
   text-align: center;
