@@ -52,23 +52,23 @@
             <h3>Resolvemos tus dudas</h3>
             <form>
                 <div class=ident></div>
-                  <label for="nombre_apellido">Nombre:</label required><!--nombre y apellido-->
-                  <input type="text"name="nombre_apellido"/>
-                  <label for="email">Email:</label requiered><!--email-->
-                  <input type="text"name="email">
+                  <label for="nombre_apellido"><strong>Tu nombre</strong></label required><!--nombre y apellido-->
+                  <input type="text"name="nombre_apellido"/ placeholder="Leandro Santiago Brangi">
+                  <label for="email" ><strong>Te responderemos a</strong></label requiered ><!--email-->
+                  <input type="text"name="email" placeholder="xxxxxxx@xmail.com">
                 </div>
                 <div>
-                  <label>Masculino:</label>
+                  <label><strong>Masculino:</strong></label>
                   <input type="radio" name="sexo" value="masculino">
-                  <label>Femenino:</label>
+                  <label><strong>Femenino:</strong></label>
                   <input type="radio" name="sexo" value="femenino">
                 </div>
                 <div class=newsletter>
-                  <label>Recibir novedades sobre productos</label> 
-                  <input type="checkbox" name="novedades" value="1" required>
+                  <label><strong>Quiero recibir novedades sobre productos</strong></label> 
+                  <input type="checkbox" name="novedades" value="1" >
                 </div>
                 <div>
-                <label>Tipo de consulta:</label>
+                <label><strong>Tipo de consulta</strong></label>
                 <select name="Tipo de consulta" required><!--menu desplegable-->
                     <option value="consulta">Consulta</option>  
                     <option value="cotizacion">Cotización</option>
@@ -77,7 +77,7 @@
                 </select>
                 </div>
                 <div class="text">
-                <textarea required></textarea>
+                <textarea required placeholder="Dejanos tu Consulta o mentario."></textarea>
                 </div>
                 <div class="reset">
                   <button type="reset">Limpiar campos</button>

@@ -1,3 +1,5 @@
+@import "../variables";
+
 #parrafos{
     display: grid;
     grid-template-areas: 
@@ -8,6 +10,8 @@
 
 .quien{
     grid-area: quien;
+    text-align: center;
+    margin-top: 30%;
     
 }
 
@@ -21,6 +25,8 @@
 
 .como{
     grid-area: como;
+    text-align: center;
+    margin-top: 30%;
 }
 
 .imgComo{
@@ -31,6 +37,8 @@
 
 .objetivo{
     grid-area: objetivo;
+    text-align: center;
+    margin-top: 20%;
 }
 
 .imgObjetivo{

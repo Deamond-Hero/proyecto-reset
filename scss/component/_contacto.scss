@@ -15,7 +15,11 @@ form{
     border:  purple 8px outset;
     padding: 20px;
     line-height: 50px;
-
+    align-content: center;
+    
+    .newsletter{
+        align-content: center;
+    }
     
     label{
         text-align: left;
@@ -35,6 +39,15 @@ form{
 
     }
 
+    button{
+        color:white;
+        font-weight: bold;
+        background-color: purple;
+        width: 30%;
+        border:#482865 2px;
 
+    }
     
 }
+
+

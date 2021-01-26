@@ -1,6 +1,12 @@
+@import "../variables";
+
 .carrusel-1{
+    .movil{
+        display: none;
+    }
     height: 100%;
     z-index: -10;
+    width: 100%;
         #carouselExampleControls{
             .carousel-inner{
                 .carousel-item{
@@ -15,10 +21,10 @@
         
         
 
-h1{
-    font-size: 90px;
+.tituloPrincipal{
+    font-size: 60px;
     color: white;
-    text-shadow: 6px 6px grey;
+    text-shadow: 6px 6px $color-terciario;
     position: absolute;
     padding: 0px;
     z-index: 100;
@@ -32,7 +38,7 @@ h1{
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: rgba($color: #efdeff, $alpha: 1.0);
-    h2{
+    .tituloSecundario{
         font-size: 60px;
         margin-bottom: 60px;
         margin-top: 50px;
@@ -91,10 +97,9 @@ h1{
     padding-top: 80px;
     padding-bottom: 80px;
     margin-bottom: 5px;
-    h2{
-        font-size: 60px;
+    .fav{
+        font-size: 30px;
         margin-bottom: 60px;
-        
     }
     .containerCenterHome{
         display: grid;
@@ -126,3 +131,129 @@ h1{
     }
 }
 
+/*Media Querys*/
+
+@media screen and(min-width: 700px){
+    
+    #carruselIdex{
+        .mov{
+            display: none;
+        }
+     
+        .desk{
+            display: block;
+    }
+} 
+}
+
+@media screen and(max-width: 500px){
+    
+    #carruselIdex{
+        .mov{
+            display: block;
+        }
+        .desk{
+            display: none;
+    }
+    .tituloPrincipal{
+        font-size: 22px;
+        color: white;
+        text-shadow: 6px 6px $color-terciario;
+        position: absolute;
+        z-index: 100;
+        margin: 0px;
+        margin-top: -60px;
+        margin-left: 5px;
+    } 
+}
+
+
+
+
+
+
+    #favoritos{
+        height: 100vh;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        margin-bottom: 5px;
+        .fav{
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+        .containerCenterHome{
+            display: grid;
+            z-index: -1;
+            width: 100%;
+            grid-template-areas:
+                "item1"
+                "item2" 
+                "item3";
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            margin: 10px auto 60px ;
+                        img{
+                            width:300px;
+                            padding: 5px;
+                            border: 1px solid purple;
+                            margin: 5px 0%;
+                        }
+                    }
+}
+#fortalezas{
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgba($color: #efdeff, $alpha: 1.0);
+    .tituloSecundario{
+        font-size: 40px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    #beneficios{
+        display: grid;
+        width: 100%;
+        grid-template-areas: 
+            "beneficios1"
+            "beneficios2"
+            "beneficios3";
+        margin: 100px 0px;
+        
+
+        }
+
+        h3{
+            margin-bottom: 60px;
+            color: purple;
+            padding-top: 50px;
+            font-size: 35px;
+        }
+
+        
+        .container1{
+            grid-area: beneficios1;
+            width: 300px;
+            height: 300px;
+            border:  purple 8px outset;
+            margin: auto;
+            background-color: white;
+        }
+        .container2{
+            grid-area: beneficios2;
+            width: 300px;
+            height: 300px;
+            border:  purple 8px outset;
+            margin: auto;
+            background-color: white;
+            
+        }
+        .container3{
+            grid-area: beneficios3;
+            width: 300px;
+            height: 300px;
+            border:  purple 8px outset;
+            margin: auto;
+            background-color: white;
+    }
+}
+}

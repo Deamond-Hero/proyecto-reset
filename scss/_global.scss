@@ -1,10 +1,14 @@
+@import "variables";
+
 *{
   margin: 0px;
   padding: 0px;
 }
 
+
+
 header{
-  background-color: #482865; 
+  background-color: $color-secundario; 
   width: 100%;
   height: 100%;
   position: relative;
@@ -33,7 +37,10 @@ body{
   grid-template-rows: 120px 0px 1fr 30px ;
   align-items: center;
   text-align: center;
-  }
+  font-family:"montserrat", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+  background-color:  #ffffff;  
+  font-size: 16px;
+}
 
 
 main{
@@ -48,11 +55,6 @@ nav{
 
 
 
-body{
-  background-color:  #ffffff;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
 
 /*footer*/
 
@@ -64,7 +66,15 @@ footer{
   position: fixed;
   bottom: 0px;
   z-index: 1000;
+  margin-top: 500px;
+
   h4{
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 0px 20px;
+    margin-top: 20px;
     margin-top: 30px;
     padding: 0px;
     ;
@@ -108,3 +118,68 @@ footer{
   }
         
       }
+
+
+
+      @media screen and(max-width: 500px){
+        footer{
+          background:rgb(90, 0, 90);
+          width: 100%;
+          height: 70px;
+          position: fixed;
+          bottom: 0px;
+          z-index: 1000;
+          margin-top: 500px;
+          font-size: 30px;
+        
+          h4{
+            display: none;
+            font-weight: bold;
+            text-align: left;
+            font-size: 12px;
+            color: #ffffff;
+            padding: 0px 20px;
+            margin-top: 20px;
+            margin-top: 30px;
+            padding: 0px;
+            ;
+          }
+          .redes{
+            position: fixed;
+            bottom: -10px;
+            right: 50px;
+            z-index: 10;
+            ul{ 
+              li{
+          
+                display: inline-block;
+                text-decoration: none;
+                list-style-type: none;
+                padding: 5px;
+                      a{
+                        color: white;
+                        font-size: 30px ;
+                        font-weight: bold;
+                        margin: 15px 15px;
+                        bottom: 30px;
+          
+                      }
+                    }
+                  }
+            ul li a:hover {
+              color: #050cd2 ;
+              text-decoration: none;
+              list-style-type: none;
+              font-size: 30px ;
+              font-weight: bold;
+              margin: 15px 15px;
+              bottom: 30px;
+            
+            }
+                  
+                }
+        
+        
+                           
+                  }
+                }        

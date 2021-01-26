@@ -1,35 +1,21 @@
+@import "../variables";
+
 h1 {
-    font-family:"montserrat" 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 40px;
-    color: #ba14d0;
+    color: $color-principal;
+    font-family:"montserrat", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
     text-align: center;
     font-weight: bolder;
 }
 
 h2{
     text-align: center;
-    color: purple;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: $color-principal;
+    font-family:"montserrat", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
     font-size: 30px;  
-
     margin: 10px 0px  20px 0px;
     margin: 1% 0;
+    font-weight: bolder;
 }
 
-h3{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
-    text-align: center;
-    font-size: 30px;
-    margin: 1% 0;
 
-}
 
-h4{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    text-align: center;
-    font-size: 16px;
-    color: #ffffff;
-    padding: 0px 20px;
-    margin-top: 20px;
-}
