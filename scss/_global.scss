@@ -37,7 +37,7 @@ body{
   grid-template-rows: 120px 0px 1fr 30px ;
   align-items: center;
   text-align: center;
-  font-family:"montserrat", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+  font-family:"montserrat", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color:  #ffffff;  
   font-size: 16px;
   padding: 0px !important;
@@ -184,3 +184,40 @@ footer{
                            
                   }
                 }        
+
+
+
+h1 {
+    color: $color-principal;
+    font-family:"montserrat", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+}
+
+h2{
+    text-align: center;
+    color: $color-principal;
+    font-family:"montserrat", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;  
+    margin: 10px 0px  20px 0px;
+    margin: 1% 0;
+    font-weight: bolder;
+}
+                
+
+
+p{
+  width: 90%;
+  margin: 0px auto 0px auto;
+  font-size: 18px;
+  color: black;
+  padding: 20px 0px;
+  text-align: center;
+  letter-spacing: auto;
+  text-align: center;
+  font-family:"montserrat", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: normal;
+
+
+}
+

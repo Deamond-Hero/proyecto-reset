@@ -3,10 +3,15 @@
 #parrafos{
     display: grid;
     grid-template-areas: 
-        "quien quien quien imgQuien imgQuien imgQuien"
-        "imgComo imgComo imgComo como como como"
-        "objetivo objetivo objetivo imgObjetivo imgObjetivo imgObjetivo";
-    align-content: r;
+        "quien imgQuien"
+        "imgComo como"
+        "objetivo imgObjetivo";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+        .mov{
+            display: none;
+        }
+
 
 .quien{
     grid-area: quien;
@@ -48,4 +53,70 @@
     }
 }
 
+}
+
+@media screen and(max-width: 900px){
+
+        #parrafos{
+            text-align: center;
+            display: grid;
+            grid-template-areas: 
+                "quien"
+                "imgQuien"
+                "como"
+                "imgComo"
+                "objetivo" 
+                "imgObjetivo";
+            grid-template-columns: 1fr;
+            grid-template-rows: 10% 1fr 10% 1fr 10% 1fr;
+
+        
+            .desk{
+                display: none;
+            }
+            .mov{
+                display: block;
+            }
+            h1{
+                font-size: 25px;
+                
+            }
+            h2{
+                font-size: 25px;
+
+        }
+        .quien{
+            text-align: center;
+            margin: auto;
+            
+        }
+        
+        .imgQuien{
+                img{
+                    width: 100%;
+        
+                }
+        }
+        
+        .como{
+            text-align: center;
+            margin: auto;
+        }
+        
+        .imgComo{
+            img{
+                width: 100%;
+            }}
+        
+        .objetivo{
+            text-align: center;
+            margin::auto;
+        }
+        
+        .imgObjetivo{
+            img{
+                width: 100%;
+            }
+        }
+    }
 }
