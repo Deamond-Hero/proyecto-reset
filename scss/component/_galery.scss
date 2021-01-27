@@ -36,10 +36,11 @@
 .carousel__contenedor {
 	grid-area: corousel;
 	position: relative;
-	width: 90%;
-	padding: 5px;
+	width: 80%;
+	padding: 10px;
 	margin-top: 40%;
-	margin:auto
+	margin:auto;
+	justify-content: center;
 }
 
 /*----Botones Carrusel 1---*/
@@ -214,6 +215,7 @@
 
 .carousel__elemento {
 	text-align: center;
+
 }
 
 .carousel__indicadores .glider-dot {
