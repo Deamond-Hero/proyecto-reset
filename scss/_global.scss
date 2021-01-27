@@ -120,9 +120,15 @@ footer{
         
       }
 
+      @media screen and (max-width: 800px) {
+        footer{
+          h4{
+            margin-left: -200px;
+          }
+        }
+      }
 
-
-      @media screen and(max-width: 500px){
+      @media screen and(max-width: 550px){
         footer{
           background:rgb(90, 0, 90);
           width: 100%;

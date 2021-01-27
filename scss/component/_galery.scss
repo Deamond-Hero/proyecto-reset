@@ -15,6 +15,7 @@
 
 .tituloGaleria{
 	grid-area: titulo;
+	margin-top: 20px;
 }
 
 .carrusel2{
@@ -25,6 +26,7 @@
 
 .descripcion{
 	grid-area: descripcion;
+	margin-bottom: 50px;
 }
 
 
@@ -85,7 +87,7 @@
 }
 
 .carousel__anterior {
-	left: -30px;
+	left: -50px;
 }
 
 .carousel__siguiente {
@@ -134,7 +136,7 @@
 }
 
 .carousel__anterior2 {
-	left: -30px;
+	left: -50px;
 }
 
 .carousel__siguiente2 {
@@ -183,7 +185,7 @@
 }
 
 .carousel__anterior3 {
-	left: -30px;
+	left: -50px;
 }
 
 .carousel__siguiente3 {

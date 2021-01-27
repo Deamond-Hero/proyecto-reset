@@ -11,13 +11,17 @@
         .mov{
             display: none;
         }
+            .quienesSomos{
+                margin-top: 30%;
+            }
 
 
 .quien{
     grid-area: quien;
     text-align: center;
-    margin-top: 30%;
-    
+
+
+        
 }
 
 .imgQuien{
@@ -48,8 +52,10 @@
 
 .imgObjetivo{
     grid-area: imgObjetivo;
+    
     img{
         width: 100%;
+        
     }
 }
 
@@ -69,6 +75,10 @@
                 "imgObjetivo";
             grid-template-columns: 1fr;
             grid-template-rows: 10% 1fr 10% 1fr 10% 1fr;
+
+            .quienesSomos{
+                margin-top: 0%;
+            }
 
         
             .desk{
