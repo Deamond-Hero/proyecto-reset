@@ -1,30 +1,31 @@
-@import "../variables"; 
 
-/*----Variables----*/
+@import "../variables";
+header{   
+    .navbar{
+        position: fixed;
+        z-index: 9999;
+        top: 20px;
+        right: 0px;
+        background-color: rgba(50, 7, 131, 0.4) !important ;
+        margin-top: 0px;
+        
+            ul{
+                li{
+                    display: block;
+                    float: right;
+                    a{
+                        background-color: none;
+                        text-decoration: none;
+                        list-style-type: none;
+                        color: white !important ; 
+                        font-size: 30px;
+                        font-weight: bold;
+                        padding: 15px 40px;
 
-header {
-  .navbar {
-    position: fixed;
-    z-index: 9999;
-    top: 20px;
-    right: 0px;
-    background-color: rgba(50, 7, 131, 0.4) !important ;
-    margin-top: 0px;
-
-    ul {
-      li {
-        display: block;
-        float: right;
-        a {
-          background-color: none;
-          text-decoration: none;
-          list-style-type: none;
-          color: white !important ;
-          font-size: 30px;
-          font-weight: bold;
-          padding: 15px 40px;
+        
+                }
+            }
         }
-      }
     }
-  }
+
 }

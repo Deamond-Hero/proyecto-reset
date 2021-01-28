@@ -1,0 +1,54 @@
+
+
+.tabla{
+    height: 80%;
+    width: 90%;
+
+    align-items: center;
+
+    .fichaTec{
+        margin: 30px auto 50px 10%;
+        width: 90%;
+        height: 100%;
+        font-size: 16px;
+        text-align: left;
+        font-weight: bold;
+        text-align: left;   
+        border: solid purple 5px;
+            th{
+                text-decoration: none;
+                list-style-type: none;
+                font-size: 16px;
+                border: solid purple 5px;
+                text-align: center;
+                font-weight: bold;
+                background-color: purple;
+                color:white;
+        }
+            td{
+                text-decoration: none;
+                list-style-type: none;
+                font-size: 16px;
+                border: solid purple 5px;
+                text-align: center;
+                font-weight: bold;
+                li{
+                    text-align: center;
+                    padding: 2px 5px;
+                    list-style:none;
+                }
+            tr{
+                text-decoration: none;
+                list-style-type: none;
+                font-size: 16px;
+                border: solid purple 5px;
+                li{
+                    text-align: center;
+                    padding: 2px 5px;
+                    list-style:square;
+                }
+
+            }
+        }
+    }
+}
