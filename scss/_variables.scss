@@ -14,16 +14,11 @@ $tablet_max: "only screen and (max-width: #{$screen_large - 1})";
 $normal: "only screen and (min-width: #{$screen_large})";
 $desktop: "only screen and (min-width: #{$screen_xlarge})";
 
-/* Fonts */ 
-$main-font: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-/* Font sizes */
-$font-size-base: 16px !default;
 
 /* Colors */
 $black: #222222;
-$gray: #CCC;
-$white: #FFFFFF;
+$gray: #ccc;
+$white: #ffffff;
 $color-principal: purple;
 $color-secundario: #482865;
-$color-terciario: rgb(0, 100, 190); 
+$color-terciario: rgb(0, 100, 190);

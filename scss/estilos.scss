@@ -1,19 +1,17 @@
-@import "../scss/global";
+@import "../scss/global";   /*----Aspectos globales que abarcan a varias secciones del sitio----*/
 
-@import "../scss/variables"; /*----variables----*/
-
-@import "../scss/component/background"; /*----fondos----*/
+@import "../scss/variables";    /*----variables----*/
 
 @import "../scss/component/navbar"; /*----barraDeNavegación----*/
 
-@import "../scss/component/galery"; /*----GaleríaDeProductos----*/
+@import "../scss/component/catalogo";   /*----GaleríaDeProductos----*/
 
-@import "../scss/component/home";
+@import "../scss/component/index";  /*----Página Principal----*/
 
-@import "../scss/component/table";
+@import "../scss/component/caracteristicas";    /*----Hoja de Caracteristicas de los Productos----*/
 
-@import "../scss/component/ideas";
+@import "../scss/component/ideas";  /*----Página de inspiración que va siendo actualizada semanal/mensualmente segun tendencias----*/
 
-@import "../scss/component/contacto";
+@import "../scss/component/contacto";   /*----Página de contacto----*/
 
-@import "../scss/component/nosotros"
+@import "../scss/component/nosotros";   /*----Información de la Marca de como trabaja----*/
