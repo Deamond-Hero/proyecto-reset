@@ -91,12 +91,6 @@
 .icon-linkedin:before {
   content: "\f0e1";
 }
-.icon-angle-left:before {
-  content: "\f104";
-}
-.icon-angle-right:before {
-  content: "\f105";
-}
 .icon-github-alt:before {
   content: "\f113";
 }

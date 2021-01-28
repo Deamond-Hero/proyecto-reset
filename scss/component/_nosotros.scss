@@ -1,0 +1,123 @@
+@import "../variables";
+
+/*----Variables----*/
+
+#parrafos {
+  display: grid;
+  grid-template-areas:
+    "quien imgQuien"
+    "imgComo como"
+    "objetivo imgObjetivo";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  .mov {
+    display: none;
+  }
+  .quienesSomos {
+    margin-top: 30%;
+  }
+
+  .quien {
+    grid-area: quien;
+    text-align: center;
+  }
+
+  .imgQuien {
+    grid-area: imgQuien;
+    img {
+      width: 100%;
+    }
+  }
+
+  .como {
+    grid-area: como;
+    text-align: center;
+    margin-top: 30%;
+  }
+
+  .imgComo {
+    grid-area: imgComo;
+    img {
+      width: 100%;
+    }
+  }
+
+  .objetivo {
+    grid-area: objetivo;
+    text-align: center;
+    margin-top: 20%;
+  }
+
+  .imgObjetivo {
+    grid-area: imgObjetivo;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and(max-width: 900px) {
+  #parrafos {
+    text-align: center;
+    display: grid;
+    grid-template-areas:
+      "quien"
+      "imgQuien"
+      "como"
+      "imgComo"
+      "objetivo"
+      "imgObjetivo";
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 1fr 10% 1fr 10% 1fr;
+
+    .quienesSomos {
+      margin-top: 0%;
+    }
+
+    .desk {
+      display: none;
+    }
+    .mov {
+      display: block;
+    }
+    h1 {
+      font-size: 25px;
+    }
+    h2 {
+      font-size: 25px;
+    }
+    .quien {
+      text-align: center;
+      margin: auto;
+    }
+
+    .imgQuien {
+      img {
+        width: 100%;
+      }
+    }
+
+    .como {
+      text-align: center;
+      margin: auto;
+    }
+
+    .imgComo {
+      img {
+        width: 100%;
+      }
+    }
+
+    .objetivo {
+      text-align: center;
+      margin: auto;
+    }
+
+    .imgObjetivo {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
